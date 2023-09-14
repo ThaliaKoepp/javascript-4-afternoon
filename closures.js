@@ -1,4 +1,4 @@
-/* 
+/! 
   Once you complete a problem, refresh ./closures.html in your browser and check to see if the problem's test(s) are passing.
   Passed tests will be indicated by a green circle.
   Failed tests will be indicated by a red X.
@@ -82,7 +82,7 @@ function callFriend(name) {
   The second function is called dec, this function is responsible for decrementing the value by one and returning the updated value.
   You will need to use the module pattern to achieve this.
   Information on the module pattern available here: 
-  http://stackoverflow.com/questions/17776940/javascript-module-pattern-with-example?answertab=votes#tab-top
+  http://stackoverflow.com/questions/17776940/javascript-module-pattern-with-example?answertab=votes*tab-top
 */
 
 function counterFactory(value) {
@@ -194,3 +194,4 @@ function timeOutCounter() {
   }
 }
 timeOutCounter();
+ 
